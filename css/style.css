@@ -1,0 +1,70 @@
+/*font-family: 'Barlow', sans-serif;
+font-family: 'Baskervville', serif;*/
+
+body {
+    font-family: 'Barlow', sans-serif;
+    margin: 0;
+    background-image: url('../img/3px-tile.png');
+    background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+    background-color:rgba(95, 158, 160, .8);
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    text-decoration: underline overline line-through;
+    letter-spacing: 10px;
+    border-bottom: 10px solid rgba(250, 247, 247, 0.1);
+    padding-bottom: 30px;
+}
+
+nav ul {
+    list-style: none;/*remove bullet*/
+    text-align: center;
+    padding-left: 0;
+    /*word-spacing: 40px;*/
+    /*padding-right: 20px;*/
+}
+
+nav li {
+    display: inline;/*put on one line*/
+    padding-right: 20px;
+}
+
+#padding-right {
+    padding-right: 0;
+}
+nav a {
+    text-decoration: none;
+}
+
+div {
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 10px 30px; 
+}
+
+.highlight {
+    background-color: yellow;
+    /*any element with the class of highlight*/
+}
+
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: lower-roman; /*circle, square, lower-alpha, upper-alpha, upper-roman*/
+}
+
+footer {
+    text-align: center;
+    background-color: sandybrown;
+    padding: .6em;
+    margin-top: 10px;
+}
